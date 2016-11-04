@@ -1,0 +1,17 @@
+---
+workspace: /usr/local/src
+
+# If set to TRUE, rapidjson will be installed from source, using the version set with
+# the 'cpp_rapidjson_version' variable instead of using a package.
+cpp_rapidjson_install_from_source: true
+cpp_rapidjson_install_path: "/usr/local"
+cpp_rapidjson_version: "1.1.0"
+cpp_rapidjson_github_branch: "v1.1.0"
+cpp_rapidjson_github_archive: "1.1.0"
+
+# If rapidjson is already installed at and older version, force a new source build.
+# Only applies if cpp_rapidjson_install_from_source is `true`.
+cpp_rapidjson_install_from_source_force_update: false
+
+# Leave this at it's default.
+cpp_rapidjson_reinstall_from_source: false
